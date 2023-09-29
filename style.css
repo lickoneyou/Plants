@@ -1,0 +1,53 @@
+html {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+p,
+h3 {
+  font-family: Inter;
+}
+
+a,
+h1 {
+  font-family: Inika;
+}
+
+header {
+  background: #edf2ec;
+}
+
+.headerWrapper {
+  padding: 42px 109px 42px 111px;
+  height: 134px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo {
+  display: flex;
+}
+
+.headerLogo > img {
+  position: relative;
+  top: -6px;
+}
+
+nav {
+  margin-right: 3px;
+}
+
+nav > ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav > ul > li {
+  margin-right: 46px;
+}
+
+nav > ul > li:last-child {
+  margin-right: 0;
+}
