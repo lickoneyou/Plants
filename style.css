@@ -13,6 +13,18 @@ h1 {
   font-family: Inika;
 }
 
+button {
+  border-radius: 10px;
+  border: 2px solid #e06733;
+  background: transparent;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 158px;
+  height: 44px;
+}
+
 header {
   background: #edf2ec;
 }
@@ -92,18 +104,6 @@ nav > ul > li:last-child {
   margin-bottom: 48px;
 }
 
-.welcomeWrapper > div > button {
-  border-radius: 10px;
-  border: 2px solid #e06733;
-  background: transparent;
-  color: #000;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  width: 158px;
-  height: 44px;
-}
-
 /* about */
 
 .about {
@@ -139,3 +139,79 @@ nav > ul > li:last-child {
   font-weight: 400;
   line-height: 30px;
 }
+
+/* service */
+
+.service {
+  width: 1440px;
+  background: #edf2ec;
+}
+
+.serviceWrapper {
+  padding: 40px 109px 66px 109px;
+}
+
+.serviceTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1006px;
+  margin-bottom: 80px;
+}
+
+.serviceTitle > h2 {
+  color: #499a18;
+  font-family: Inika;
+  font-size: 40px;
+  font-weight: 400;
+  width: 306px;
+}
+
+.serviceTitle > div {
+  display: flex;
+}
+
+.serviceTitle > div * {
+  border-radius: 5px;
+  width: 161px;
+  height: 50px;
+  margin-right: 38px;
+  color: #e06733;
+  font-family: Inika;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.serviceTitle > div *:last-child {
+  margin-right: 0;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projects > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid #e3e1d5;
+  margin-bottom: 52px;
+}
+
+.projects > div > img {
+  margin-bottom: 6px;
+}
+
+.projects > div > h3 {
+  color: #e06733;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.projects > div > p {
+    margin-bottom: 36px;
+  }
