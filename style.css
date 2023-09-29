@@ -51,3 +51,55 @@ nav > ul > li {
 nav > ul > li:last-child {
   margin-right: 0;
 }
+
+/* welcome */
+
+.welcome {
+  background: #edf2ec;
+  height: 532px;
+}
+
+.welcomeWrapper {
+  padding: 62px 109px 62.64px 109px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcomeWrapper > div {
+  width: 549px;
+  padding-top: 35px;
+}
+
+.welcomeWrapper h2 {
+  color: #717171;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 42px;
+}
+
+.welcomeWrapper h2 > span {
+  color: #499a18;
+}
+
+.welcomeWrapper > div > p {
+  color: #636060;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 48px;
+}
+
+.welcomeWrapper > div > button {
+  border-radius: 10px;
+  border: 2px solid #e06733;
+  background: transparent;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 158px;
+  height: 44px;
+}
