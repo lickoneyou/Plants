@@ -103,3 +103,39 @@ nav > ul > li:last-child {
   width: 158px;
   height: 44px;
 }
+
+/* about */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  height: 666px;
+  padding: 93px 109px 94px 109px;
+}
+
+.about > div {
+  width: 604px;
+  padding-top: 69px;
+}
+
+.about > div > h2 {
+  color: #499a18;
+  font-family: Inika;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.about > div > h2 > span {
+  color: #e06733;
+  font-family: Inika;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.about > div > p {
+  color: #636060;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
