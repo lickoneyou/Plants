@@ -21,6 +21,10 @@ html {
   justify-content: space-around;
 }
 
+.btnActive {
+    transform: rotate(180deg);
+}
+
 .popUp {
   display: none;
 }

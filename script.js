@@ -39,6 +39,7 @@ const accordion_btn = document.querySelectorAll(".accordion_btn");
 
 accordion_btn.forEach((el) =>
   el.addEventListener("click", function () {
+    this.classList.toggle("btnActive")
     this.parentNode.parentNode.classList.toggle("accActive");
   })
 );
