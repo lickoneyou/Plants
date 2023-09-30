@@ -19,6 +19,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background: #D6E7D2 !important;
 }
 
 .btnActive {
