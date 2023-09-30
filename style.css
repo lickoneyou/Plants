@@ -157,7 +157,6 @@ nav > ul > li:last-child {
 /* service */
 
 .service {
-  width: 1440px;
   background: #edf2ec;
 }
 
@@ -394,4 +393,162 @@ footer p {
 
 .socialWrapper > a:last-child {
   margin-right: 0;
+}
+
+@media all and (max-device-width: 768px) {
+  html {
+    width: 768px;
+  }
+
+  .welcome {
+    height: 508px;
+  }
+
+  .headerWrapper {
+    padding: 35px 50px;
+  }
+
+  .welcomeWrapper {
+    padding: 40px 50px 70px 50px;
+  }
+
+  .welcomeWrapper > img {
+    order: 2;
+    width: 280px;
+    height: 254.148px;
+  }
+
+  .welcomeWrapper > div {
+    order: 1;
+  }
+
+  .welcomeWrapper h2 {
+    width: 341px;
+    height: 101px;
+    font-size: 35px;
+  }
+
+  .welcomeWrapper > div > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .about {
+    padding: 40px 50px 95px 50px;
+    flex-direction: column;
+    align-items: center;
+    height: 783px;
+  }
+
+  .about > div {
+    width: auto;
+  }
+
+  .about > div > h2 {
+    text-align: center;
+    font-size: 35px;
+    padding: 0px 45px;
+  }
+
+  .about > div > p {
+    width: 668px;
+    margin-bottom: 40px;
+  }
+
+  .about img {
+    width: 250px;
+    height: 258px;
+  }
+
+  .serviceWrapper {
+    padding: 60px 50px 70px 50px;
+    height: 1800px;
+  }
+
+  .serviceTitle {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .serviceTitle > h2 {
+    margin-bottom: 40px;
+  }
+
+  .projects > div {
+    width: 281px;
+    height: 450px;
+  }
+
+  .projects > div > p {
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .price {
+    padding: 40px 50px 88.015px 50px;
+    width: 768px;
+    position: relative;
+  }
+
+  .priceTitle {
+    margin-bottom: 40px;
+  }
+
+  #priceTitle__Prices {
+    font-size: 35px;
+  }
+
+  #priceTitle__descr {
+    position: absolute;
+    font-size: 25px;
+    padding: 0px 0 0 110px;
+    right: 50px;
+    top: 127px;
+  }
+
+  .priceWrapper {
+    height: 388px;
+  }
+
+  .contactUsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .contactsWrapper {
+    padding: 40px 159px 0px 159px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactsWrapper > img {
+    order: 3;
+    width: 200px;
+    height: 248.493px;
+  }
+
+  .contactsWrapper > h2 {
+    order: 1;
+    text-align: center;
+  }
+
+  .contactsWrapper > div {
+    order: 2;
+    margin-bottom: 250px;
+  }
+
+  footer {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  footer > * {
+    margin-bottom: 20px;
+  }
+
+  footer > *:last-child {
+    margin-bottom: 0;
+  }
 }
