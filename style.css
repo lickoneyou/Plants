@@ -219,7 +219,7 @@ nav > ul > li:last-child {
 /* price */
 
 .price {
-  padding: 40px 109px 115px 109px;
+  padding: 40px 109px 107px 109px;
 }
 
 .priceTitle {
@@ -293,4 +293,46 @@ nav > ul > li:last-child {
   font-weight: 400;
   margin-top: 42px;
   margin-bottom: 34px;
+}
+
+/* contacts */
+
+.contacts {
+  background: #edf2ec;
+}
+
+.contactsWrapper {
+  padding: 53px 109px 0 109px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactsWrapper > img {
+  margin-right: 45px;
+}
+
+.contactsWrapper > h2 {
+  color: #499a18;
+  font-family: Inika;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 7px;
+}
+
+.contactsWrapper > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  height: 50px;
+  padding: 5px 35px 5px 20px;
+  margin-top: 93px;
+}
+
+.contactsWrapper > div > p {
+  color: #717171;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
