@@ -478,6 +478,7 @@ footer p {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 40px;
+    width: auto;
   }
 
   .serviceTitle > h2 {
@@ -581,16 +582,28 @@ footer p {
     transition: all 500ms ease;
   }
 
+  .popUp > nav {
+    display: block;
+  }
+
+  .popUp > nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
   .popUp {
     position: absolute;
-    background: #292929;
+    background: #edf2ec;
     right: -100%;
+    top: 0;
     height: 100vh;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: all 500ms ease;
+    color: black;
   }
 
   .popUp li {
@@ -612,7 +625,6 @@ footer p {
 
   header {
     position: relative;
-    overflow: hidden;
   }
 
   .headerWrapper {
@@ -750,5 +762,13 @@ footer p {
 
   footer {
     padding: 22px 85px 16px 85px;
+  }
+
+  .popUpWrapper {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
   }
 }
