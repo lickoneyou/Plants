@@ -32,3 +32,13 @@ serviceTitleBtns.forEach((el) =>
     );
   })
 );
+
+// accordion
+
+const accordion_btn = document.querySelectorAll(".accordion_btn");
+
+accordion_btn.forEach((el) =>
+  el.addEventListener("click", function () {
+    this.parentNode.parentNode.classList.toggle("accActive");
+  })
+);

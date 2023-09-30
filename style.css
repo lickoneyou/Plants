@@ -9,6 +9,18 @@ html {
   color: white !important;
 }
 
+.accActive {
+  position: absolute;
+  left: 40px;
+  top: 34px;
+  z-index: 1;
+  width: 76%;
+  height: 75% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .popUp {
   display: none;
 }
@@ -283,23 +295,78 @@ nav > ul > li:last-child {
   height: 283px;
   padding: 34px 41px;
   margin-top: 9px;
+  position: relative;
+  overflow: hidden;
 }
 
-.accordion > div {
-  border-radius: 20px;
+.firstP {
+  color: #717171;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 10px;
+  margin-bottom: 6px;
+}
+
+.secondP {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.firstSpan {
+  color: #e06733;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.secondSpan {
+  color: #e06733;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.order {
+  border-radius: 10px;
+  background: #fff;
+  width: 86px;
+  height: 25px;
+  color: #717171;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+}
+
+.accordionWrapper {
+  margin-bottom: 32px;
   background: #edf2ec;
+  padding: 12px 38px 13px 39px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 49px;
+  transition: all 500ms ease;
+}
+
+hr {
+  background: #aea1a1;
+  height: 0.5px;
+  margin-bottom: 6px;
+}
+
+.accordionTitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 38px 13px 39px;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 
-.accordion > div:last-child {
+.accordionTitle:last-child {
   margin-bottom: 0;
 }
 
-.accordion > div > p {
+.accordionTitle > p {
   color: #000;
   font-size: 20px;
   font-weight: 700;
