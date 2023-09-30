@@ -4,6 +4,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.popUp {
+  display: none;
+}
+
+.nav380 {
+  display: none;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -527,6 +536,7 @@ footer p {
     order: 3;
     width: 200px;
     height: 248.493px;
+    margin-right: 0;
   }
 
   .contactsWrapper > h2 {
@@ -550,5 +560,195 @@ footer p {
 
   footer > *:last-child {
     margin-bottom: 0;
+  }
+}
+
+@media all and (max-device-width: 380px) {
+  html {
+    width: 380px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .nav380 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    z-index: 1;
+    transition: all 500ms ease;
+  }
+
+  .popUp {
+    position: absolute;
+    background: #292929;
+    right: -100%;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 500ms ease;
+  }
+
+  .popUp li {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 43px;
+  }
+
+  .popUp li:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav380 span {
+    width: 30px;
+    height: 3px;
+    background-color: #cdcdcd;
+    cursor: pointer;
+  }
+
+  header {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .headerWrapper {
+    padding: 36px 25px;
+  }
+
+  .welcome {
+    height: 424px;
+  }
+
+  .welcomeWrapper > img {
+    display: none;
+  }
+
+  .welcomeWrapper {
+    padding: 24px 25px;
+  }
+
+  .about {
+    padding: 30px 25px 31px 25px;
+    height: 644px;
+  }
+
+  .about > div > h2 {
+    font-size: 25px;
+    padding: 0px 30px;
+  }
+
+  .about > div > h2 > span {
+    font-size: 25px;
+  }
+
+  .about > div > p {
+    width: 330px;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .about > img {
+    width: 150px;
+    height: 147px;
+  }
+
+  .service {
+    height: 3260px;
+  }
+
+  .serviceWrapper {
+    padding: 25px 30px;
+  }
+
+  .serviceTitle > h2 {
+    font-size: 25px;
+    padding-right: 30px;
+  }
+
+  .serviceTitle > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 252px;
+  }
+
+  .serviceTitle > div * {
+    width: 121px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 9px;
+  }
+
+  .serviceTitle > div *:first-child {
+    margin-left: 0;
+  }
+
+  .serviceTitle > div *:last-child {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .projects {
+    justify-content: center;
+  }
+
+  .projects > div {
+    width: 280px;
+    height: 450px;
+  }
+
+  .price {
+    padding: 25px 79px 40px 79px;
+    width: 380px;
+  }
+
+  .priceWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .priceTitle {
+    justify-content: center;
+  }
+
+  #priceTitle__Prices {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .contactUsWrapper > img {
+    display: none;
+  }
+
+  #priceTitle__descr {
+    display: none;
+  }
+
+  .contactsWrapper {
+    padding: 25px 42px 0px 42px;
+  }
+
+  .contactsWrapper > h2 {
+    font-size: 25px;
+  }
+
+  .contactsWrapper > div {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 137px;
+  }
+
+  .contactsWrapper > img {
+    width: 100px;
+    height: 124.246px;
+  }
+
+  footer {
+    padding: 22px 85px 16px 85px;
   }
 }
