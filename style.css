@@ -213,5 +213,84 @@ nav > ul > li:last-child {
 }
 
 .projects > div > p {
-    margin-bottom: 36px;
-  }
+  margin-bottom: 36px;
+}
+
+/* price */
+
+.price {
+  padding: 40px 109px 115px 109px;
+}
+
+.priceTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceTitle > h2 {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.priceTitle > h2 > span {
+  color: #499a18;
+}
+
+.priceTitle > h2:last-child {
+  width: 452px;
+}
+
+.priceWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion {
+  border-radius: 20px;
+  border: 1px solid #e3e1d5;
+  width: 332px;
+  height: 283px;
+  padding: 34px 41px;
+  margin-top: 9px;
+}
+
+.accordion > div {
+  border-radius: 20px;
+  background: #edf2ec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 38px 13px 39px;
+  margin-bottom: 32px;
+}
+
+.accordion > div:last-child {
+  margin-bottom: 0;
+}
+
+.accordion > div > p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contactUsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUsWrapper > button {
+  border-radius: 5px;
+  width: 167px;
+  height: 50px;
+  color: #e06733;
+  font-family: Inika;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 42px;
+  margin-bottom: 34px;
+}
