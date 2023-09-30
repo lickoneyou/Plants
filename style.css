@@ -1,6 +1,12 @@
 html {
   width: 1440px;
   margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 p,
@@ -58,6 +64,14 @@ nav > ul {
 
 nav > ul > li {
   margin-right: 46px;
+}
+
+nav > ul a {
+  transition: all 200ms ease;
+}
+
+nav > ul a:hover {
+  color: #e06733;
 }
 
 nav > ul > li:last-child {
