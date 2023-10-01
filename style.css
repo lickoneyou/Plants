@@ -19,11 +19,11 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background: #D6E7D2 !important;
+  background: #d6e7d2 !important;
 }
 
 .btnActive {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .popUp {
@@ -418,11 +418,16 @@ hr {
   margin-top: 7px;
 }
 
-.contactsWrapper > div {
+.adressWrapper {
+  background: #d6e7d2;
+  z-index: 1;
+  position: relative;
+}
+
+.citySelector {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #d6e7d2;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 450px;
   height: 50px;
@@ -430,10 +435,70 @@ hr {
   margin-top: 93px;
 }
 
-.contactsWrapper > div > p {
+.citySelector > p {
   color: #717171;
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+.adresses {
+  overflow: hidden;
+  height: 0;
+  transition: all 500ms ease;
+}
+
+.adresses__active {
+  padding: 27px 50px 31px 26px;
+  height: auto;
+}
+
+.adresses > div {
+  margin-bottom: 12px;
+}
+
+.adresses > div:last-child {
+  margin-bottom: 0;
+}
+
+.adresses p {
+  color: #499a18;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.adresses hr {
+  height: 1px;
+  background: #d9d9d9;
+}
+
+.adress {
+  padding: 17px 76px 32px 33px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  display: none;
+  flex-direction: column;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.adress > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.adressKey {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.adressValue {
+  color: #717171;
+  font-size: 16px;
+  letter-spacing: 0.8px;
 }
 
 /* footer */
@@ -820,6 +885,7 @@ footer p {
 
   .contactsWrapper {
     padding: 25px 42px 0px 42px;
+    height: 450px;
   }
 
   .contactsWrapper > h2 {
@@ -835,6 +901,24 @@ footer p {
   .contactsWrapper > img {
     width: 100px;
     height: 124.246px;
+  }
+
+  .citySelector {
+    width: 300px;
+  }
+
+  .adress {
+    padding: 17px 10px 32px 14px;
+    background-color: rgba(237, 242, 236, 0.7);
+    margin-top: 35px;
+  }
+
+  .adressKey {
+    font-size: 15px;
+  }
+
+  .adressValue {
+    font-size: 14px;
   }
 
   footer {
